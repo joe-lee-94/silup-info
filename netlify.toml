@@ -1,0 +1,29 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/eligibility"
+  to = "/eligibility/"
+  status = 301
+
+[[redirects]]
+  from = "/voluntary-quit"
+  to = "/voluntary-quit/"
+  status = 301
+
+[[redirects]]
+  from = "/apply"
+  to = "/apply/"
+  status = 301
+
+[[redirects]]
+  from = "/faq"
+  to = "/faq/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

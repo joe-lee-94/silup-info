@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>실업급여 신청방법 2026 — 단계별 완전 가이드</title>
+<meta name="description" content="2026년 실업급여 신청방법을 단계별로 정리했습니다. 고용24 구직등록부터 온라인 교육, 고용센터 방문, 실업인정까지 순서대로 안내합니다.">
+<meta name="keywords" content="실업급여 신청방법, 실업급여 신청절차, 실업급여 신청, 고용24 구직등록, 실업인정 신청">
+<meta property="og:title" content="실업급여 신청방법 2026 단계별 완전 가이드">
+<meta property="og:description" content="구직등록부터 급여 수령까지, 실업급여 신청 전 과정을 단계별로 안내합니다.">
+<meta property="og:type" content="article">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "실업급여(구직급여) 신청방법 2026",
+  "description": "2026년 기준 실업급여 신청 단계별 가이드",
+  "step": [
+    {"@type": "HowToStep", "position": 1, "name": "고용24 구직등록", "text": "www.work24.go.kr에서 구직신청"},
+    {"@type": "HowToStep", "position": 2, "name": "수급자격 온라인 교육 이수", "text": "고용24에서 실업급여 수급자격 신청자 온라인 교육 수강"},
+    {"@type": "HowToStep", "position": 3, "name": "거주지 관할 고용센터 방문", "text": "신분증 지참 후 고용센터 방문하여 수급자격인정 신청"},
+    {"@type": "HowToStep", "position": 4, "name": "수급자격 인정 결과 확인", "text": "접수 후 14일 이내 인정여부 결정·통지"},
+    {"@type": "HowToStep", "position": 5, "name": "실업인정 신청 및 구직활동", "text": "4주마다 실업인정 신청, 구직활동 증빙 제출"},
+    {"@type": "HowToStep", "position": 6, "name": "구직급여 수령", "text": "실업인정 후 지정 계좌로 급여 입금"}
+  ]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #f5f4f0;
+  --white: #ffffff;
+  --navy: #0f1f3d;
+  --navy-mid: #1e3a6e;
+  --teal: #0b7b6e;
+  --teal-light: #d4f0ec;
+  --teal-mid: #0d9e8e;
+  --amber: #d97706;
+  --amber-light: #fef3c7;
+  --red: #dc2626;
+  --text: #1a1a2e;
+  --muted: #6b7280;
+  --border: #e2e0d8;
+  --shadow: 0 2px 16px rgba(15,31,61,0.08);
+  --shadow-lg: 0 8px 40px rgba(15,31,61,0.12);
+  --mono: 'DM Mono', monospace;
+  --serif: 'Noto Serif KR', serif;
+  --sans: 'Noto Sans KR', sans-serif;
+  --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+/* ── Header ── */
+.site-header { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 24px; position: sticky; top: 0; z-index: 100; }
+.header-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 56px; }
+.logo { font-family: var(--serif); font-size: 18px; font-weight: 900; color: var(--navy); text-decoration: none; }
+.logo span { color: var(--teal); }
+nav { display: flex; gap: 24px; }
+nav a { font-size: 13px; font-weight: 500; color: var(--muted); text-decoration: none; transition: color .2s; }
+nav a:hover { color: var(--navy); }
+nav a.active { color: var(--navy); font-weight: 700; }
+
+/* ── Layout ── */
+.page-wrap { max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; display: grid; grid-template-columns: 1fr 300px; gap: 32px; align-items: start; }
+
+/* ── Breadcrumb ── */
+.breadcrumb { grid-column: 1 / -1; font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; margin-bottom: -16px; }
+.breadcrumb a { color: var(--muted); text-decoration: none; }
+.breadcrumb a:hover { color: var(--teal); }
+.breadcrumb span { color: var(--border); }
+
+/* ── Ad ── */
+.ad-banner { grid-column: 1 / -1; background: var(--white); border: 1px dashed var(--border); border-radius: var(--radius); height: 90px; display: flex; align-items: center; justify-content: center; color: var(--border); font-family: var(--mono); font-size: 11px; letter-spacing: .1em; }
+
+/* ── Article head ── */
+.article-head { margin-bottom: 32px; }
+.article-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--teal-light); color: var(--teal); font-size: 11px; font-weight: 700; font-family: var(--mono); padding: 4px 12px; border-radius: 999px; margin-bottom: 14px; letter-spacing: .05em; }
+.article-head h1 { font-family: var(--serif); font-size: clamp(22px, 4vw, 34px); font-weight: 900; color: var(--navy); line-height: 1.3; margin-bottom: 12px; }
+.article-head h1 em { font-style: normal; color: var(--teal); }
+.article-head .meta { font-size: 12px; color: var(--muted); font-family: var(--mono); display: flex; gap: 16px; flex-wrap: wrap; }
+.article-head .meta strong { color: var(--teal); }
+
+/* ── 신청 전 필수 확인 ── */
+.precondition-box { background: #fff7ed; border: 1px solid #fed7aa; border-radius: var(--radius); padding: 22px 24px; margin-bottom: 40px; }
+.precondition-box h3 { font-size: 15px; font-weight: 700; color: #9a3412; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.pre-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
+.pre-list li { font-size: 13px; color: #7c2d12; line-height: 1.75; display: flex; align-items: flex-start; gap: 12px; padding: 11px 0; border-bottom: 1px solid #fde8cc; word-break: keep-all; }
+.pre-list li:last-child { border-bottom: none; padding-bottom: 0; }
+.pre-list li:first-child { padding-top: 0; }
+.pre-list .cicon { width: 20px; height: 20px; min-width: 20px; background: var(--amber); color: var(--white); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; margin-top: 2px; flex-shrink: 0; }
+.pre-list li strong { color: #9a3412; }
+
+/* ── Section ── */
+.section { margin-bottom: 48px; }
+.section-title { font-family: var(--serif); font-size: 20px; font-weight: 900; color: var(--navy); padding-bottom: 12px; border-bottom: 2px solid var(--navy); margin-bottom: 28px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.section-title .stag { font-family: var(--mono); font-size: 11px; font-weight: 400; color: var(--muted); }
+
+/* ── 단계 카드 ── */
+.step-list { display: flex; flex-direction: column; gap: 0; position: relative; }
+.step-list::before { content: ''; position: absolute; left: 27px; top: 40px; bottom: 40px; width: 2px; background: var(--border); z-index: 0; }
+.step-item { display: grid; grid-template-columns: 56px 1fr; gap: 20px; position: relative; z-index: 1; padding-bottom: 24px; }
+.step-item:last-child { padding-bottom: 0; }
+.step-left { display: flex; flex-direction: column; align-items: center; gap: 0; }
+.step-num { width: 56px; height: 56px; border-radius: 50%; background: var(--navy); color: var(--white); display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 18px; font-weight: 500; flex-shrink: 0; position: relative; z-index: 1; }
+.step-num.online { background: var(--teal); }
+.step-num.visit { background: var(--navy-mid); }
+.step-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px 24px; flex: 1; }
+.step-card .step-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 10px; font-weight: 700; font-family: var(--mono); padding: 3px 8px; border-radius: 4px; margin-bottom: 10px; letter-spacing: .03em; }
+.step-badge.badge-online { background: var(--teal-light); color: var(--teal); }
+.step-badge.badge-visit { background: #e0e7ff; color: #3730a3; }
+.step-badge.badge-auto { background: #f3f4f6; color: var(--muted); }
+.step-badge.badge-repeat { background: var(--amber-light); color: var(--amber); }
+.step-card h3 { font-size: 16px; font-weight: 700; color: var(--navy); margin-bottom: 8px; line-height: 1.4; }
+.step-card .step-desc { font-size: 13px; color: var(--muted); line-height: 1.8; word-break: keep-all; }
+.step-card .step-detail { margin-top: 14px; background: var(--bg); border-radius: 8px; padding: 14px 16px; }
+.step-detail .detail-title { font-size: 11px; font-weight: 700; color: var(--navy); font-family: var(--mono); letter-spacing: .05em; text-transform: uppercase; margin-bottom: 8px; }
+.step-detail ul { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+.step-detail ul li { font-size: 12px; color: var(--muted); display: flex; align-items: flex-start; gap: 8px; line-height: 1.6; word-break: keep-all; }
+.step-detail ul li::before { content: '–'; color: var(--teal); flex-shrink: 0; }
+.step-card .step-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; padding: 8px 14px; background: var(--navy); color: var(--white); font-size: 12px; font-weight: 700; border-radius: 6px; text-decoration: none; transition: background .2s; }
+.step-card .step-link:hover { background: var(--navy-mid); }
+.step-card .step-warn { margin-top: 12px; background: var(--amber-light); border-radius: 8px; padding: 10px 14px; font-size: 12px; color: #7c4b00; line-height: 1.7; word-break: keep-all; }
+
+/* ── 실업인정 카드형 ── */
+.recog-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.recog-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.recog-card-warn { border: 1.5px solid #fca5a5; }
+.recog-card-head { background: var(--navy); padding: 12px 16px; }
+.recog-card-warn .recog-card-head { background: #7f1d1d; }
+.recog-type { font-size: 13px; font-weight: 700; color: var(--white); }
+.rtype-sub { font-size: 11px; font-weight: 400; color: rgba(255,255,255,0.55); margin-left: 4px; }
+.recog-rows { padding: 4px 0; }
+.recog-row { display: flex; align-items: center; gap: 10px; padding: 9px 16px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+.recog-row:last-child { border-bottom: none; }
+.rr-label { font-size: 11px; font-weight: 700; color: var(--muted); font-family: var(--mono); min-width: 40px; flex-shrink: 0; }
+.rr-val { font-size: 12px; color: var(--text); line-height: 1.6; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; word-break: keep-all; }
+.tag-online { display: inline-block; padding: 2px 7px; background: var(--teal-light); color: var(--teal); border-radius: 4px; font-size: 10px; font-weight: 700; font-family: var(--mono); }
+.tag-visit { display: inline-block; padding: 2px 7px; background: #e0e7ff; color: #3730a3; border-radius: 4px; font-size: 10px; font-weight: 700; font-family: var(--mono); }
+
+/* ── 구직활동 인정 항목 ── */
+.activity-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.activity-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 20px; border-top: 3px solid var(--teal); }
+.activity-card .aicon { font-size: 20px; margin-bottom: 8px; }
+.activity-card h4 { font-size: 13px; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+.activity-card p { font-size: 12px; color: var(--muted); line-height: 1.7; word-break: keep-all; }
+
+/* ── 2026 변경사항 ── */
+.change-box { background: var(--navy); border-radius: var(--radius); padding: 24px; margin-bottom: 48px; }
+.change-box h3 { font-size: 14px; font-weight: 700; color: rgba(255,255,255,0.5); font-family: var(--mono); letter-spacing: .05em; margin-bottom: 16px; text-transform: uppercase; }
+.change-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.change-list li { font-size: 13px; color: rgba(255,255,255,0.85); line-height: 1.75; display: flex; align-items: flex-start; gap: 10px; word-break: keep-all; }
+.change-list .ctag { display: inline-block; padding: 2px 8px; background: var(--teal); color: var(--white); border-radius: 4px; font-size: 10px; font-weight: 700; font-family: var(--mono); flex-shrink: 0; margin-top: 2px; white-space: nowrap; }
+
+/* ── CTA ── */
+.cta-box { background: var(--navy); border-radius: var(--radius); padding: 28px; text-align: center; margin-top: 40px; }
+.cta-box h3 { font-family: var(--serif); font-size: 20px; font-weight: 900; color: var(--white); margin-bottom: 8px; }
+.cta-box p { font-size: 13px; color: rgba(255,255,255,0.55); margin-bottom: 20px; }
+.cta-btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.cta-btn { display: inline-flex; align-items: center; gap: 8px; font-family: var(--sans); font-size: 14px; font-weight: 700; padding: 13px 24px; border-radius: 10px; text-decoration: none; transition: background .2s; }
+.cta-btn.primary { background: var(--teal); color: var(--white); }
+.cta-btn.primary:hover { background: var(--teal-mid); }
+.cta-btn.secondary { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.2); }
+.cta-btn.secondary:hover { background: rgba(255,255,255,0.18); }
+
+/* ── 출처 ── */
+.source-box { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 22px; margin-top: 40px; }
+.source-box h4 { font-size: 12px; font-weight: 700; color: var(--navy); margin-bottom: 14px; font-family: var(--mono); letter-spacing: .05em; text-transform: uppercase; }
+.source-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.source-list li { font-size: 12px; color: var(--muted); }
+.source-list a { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border); color: var(--muted); text-decoration: none; line-height: 1.6; transition: background .15s, border-color .15s; word-break: keep-all; }
+.source-list a:hover { background: var(--teal-light); border-color: var(--teal); color: var(--navy); }
+.source-list a:hover .s-label { background: var(--teal); color: var(--white); }
+.s-label { display: inline-block; flex-shrink: 0; background: var(--teal-light); color: var(--teal); font-size: 10px; font-weight: 700; font-family: var(--mono); padding: 2px 7px; border-radius: 4px; margin-top: 2px; white-space: nowrap; transition: background .15s, color .15s; }
+
+/* ── Sidebar ── */
+.sidebar { display: flex; flex-direction: column; gap: 20px; }
+.side-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.side-card-head { background: var(--navy); padding: 14px 16px; }
+.side-card-head h3 { font-size: 13px; font-weight: 700; color: var(--white); }
+.side-card-body { padding: 16px; }
+.quick-links { list-style: none; }
+.quick-links li { border-bottom: 1px solid var(--border); padding: 10px 0; }
+.quick-links li:last-child { border-bottom: none; }
+.quick-links a { font-size: 13px; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; font-weight: 500; transition: color .2s; }
+.quick-links a:hover { color: var(--teal); }
+.quick-links a.current { color: var(--teal); font-weight: 700; }
+.quick-links .arrow { color: var(--teal); font-size: 11px; }
+.ad-side { background: var(--white); border: 1px dashed var(--border); border-radius: var(--radius); height: 250px; display: flex; align-items: center; justify-content: center; color: var(--border); font-family: var(--mono); font-size: 11px; }
+.mini-step-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
+.mini-step-list li { font-size: 12px; display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); line-height: 1.5; word-break: keep-all; }
+.mini-step-list li:last-child { border-bottom: none; }
+.mini-num { width: 20px; height: 20px; min-width: 20px; border-radius: 50%; background: var(--navy); color: var(--white); display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; font-family: var(--mono); flex-shrink: 0; margin-top: 1px; }
+.mini-num.on { background: var(--teal); }
+
+/* ── Footer ── */
+.site-footer { background: var(--navy); color: rgba(255,255,255,0.5); text-align: center; padding: 32px 24px; font-size: 12px; line-height: 1.8; margin-top: 64px; }
+.site-footer strong { color: var(--white); }
+
+@media (max-width: 768px) {
+  .page-wrap { grid-template-columns: 1fr; padding: 20px 16px 60px; }
+  .sidebar { order: 3; }
+  nav { display: none; }
+  .step-list::before { left: 23px; }
+  .step-item { grid-template-columns: 48px 1fr; gap: 14px; }
+  .step-num { width: 48px; height: 48px; font-size: 16px; }
+  .breadcrumb { margin-bottom: -8px; }
+  .activity-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">실업급여<span>.info</span></a>
+    <nav>
+      <a href="/eligibility/">수급 조건</a>
+      <a href="/period/">수급 기간</a>
+      <a href="/apply/" class="active">신청 방법</a>
+      <a href="/faq/">자주 묻는 질문</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+  <div class="breadcrumb">
+    <a href="/">홈</a><span>›</span>
+    <span>신청 방법</span>
+  </div>
+
+  <div class="ad-banner">[ Google AdSense — 728×90 ]</div>
+
+  <main>
+
+    <!-- 아티클 헤드 -->
+    <div class="article-head">
+      <div class="article-tag">📋 신청 방법 단계별 가이드</div>
+      <h1>실업급여 신청,<br><em>이 순서대로 하면 됩니다</em></h1>
+      <div class="meta">
+        <span>📅 <strong>2026년 기준</strong></span>
+        <span>📌 고용노동부 공식 절차</span>
+        <span>🏛 출처: 고용노동부 · 고용보험 공식 사이트</span>
+      </div>
+    </div>
+
+    <!-- 신청 전 중요 확인 -->
+    <div class="precondition-box">
+      <h3>⚠️ 신청 전 꼭 확인하세요</h3>
+      <ul class="pre-list">
+        <li>
+          <span class="cicon">!</span>
+          <span>실업급여는 <strong>이직일 다음 날부터 12개월</strong>이 지나면 소정급여일수가 남아있어도 지급받을 수 없습니다. 퇴직 즉시 신청하세요.</span>
+        </li>
+        <li>
+          <span class="cicon">!</span>
+          <span>신청 전 <strong>사업주가 고용센터에 이직확인서를 제출</strong>해야 합니다. 제출되지 않은 경우 사업주에게 요청하거나 고용센터(☎ 1350)에 신고할 수 있습니다.</span>
+        </li>
+        <li>
+          <span class="cicon">!</span>
+          <span>구직등록(고용24)은 <strong>본인이 직접</strong> 해야 합니다. 대리 등록은 불가합니다.</span>
+        </li>
+        <li>
+          <span class="cicon">!</span>
+          <span>수급자격 인정 신청은 <strong>반드시 거주지 관할 고용센터를 방문</strong>해야 합니다. 온라인으로 완결되지 않습니다.</span>
+        </li>
+        <li>
+          <span class="cicon">!</span>
+          <span>거짓으로 신청하면 <strong>부정수급</strong>으로 처리되어 수령액 반환과 최대 5배 추가 징수, 형사처벌을 받을 수 있습니다.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 2026년 변경사항 -->
+    <div class="change-box">
+      <h3>🆕 2026년 주요 변경사항</h3>
+      <ul class="change-list">
+        <li>
+          <span class="ctag">상한액</span>
+          <span>1일 지급 상한액이 <strong>66,000원 → 68,100원</strong>으로 인상 (2019년 이후 7년 만)</span>
+        </li>
+        <li>
+          <span class="ctag">하한액</span>
+          <span>최저임금 인상에 따라 1일 하한액이 <strong>66,048원</strong>으로 상향 (10,320원 × 8시간 × 80%)</span>
+        </li>
+        <li>
+          <span class="ctag">반복수급</span>
+          <span><strong>반복수급자(5년 내 3회 이상)</strong>는 실업인정 시 전 회차 고용센터 대면 출석 의무화, 급여 감액 적용</span>
+        </li>
+        <li>
+          <span class="ctag">60세</span>
+          <span>2026년 3월 1일부터 <strong>60~64세 수급자</strong>의 구직외활동(단기취업특강 등) 인정 횟수 제한 강화</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 단계별 신청 절차 -->
+    <div class="section">
+      <div class="section-title">단계별 신청 절차 <span class="stag">고용보험 공식 사이트 기준</span></div>
+
+      <div class="step-list">
+
+        <!-- STEP 1 -->
+        <div class="step-item">
+          <div class="step-left">
+            <div class="step-num online">1</div>
+          </div>
+          <div class="step-card">
+            <span class="step-badge badge-online">💻 온라인</span>
+            <h3>고용24에서 구직등록</h3>
+            <p class="step-desc">가장 먼저 해야 할 일입니다. <strong>www.work24.go.kr</strong>(구 워크넷)에 접속해 본인 인증 후 이력서를 작성하고 구직신청을 완료합니다.</p>
+            <div class="step-detail">
+              <div class="detail-title">이렇게 하세요</div>
+              <ul>
+                <li>고용24 → 개인회원 로그인 → 이력서 작성 → 구직신청</li>
+                <li>희망직종, 경력, 학력, 연락처를 정확히 입력</li>
+                <li>구직신청 완료 후 고용센터 방문 시 활용교육·구직표 작성 시간 면제</li>
+              </ul>
+            </div>
+            <a href="https://www.work24.go.kr" target="_blank" rel="noopener" class="step-link">→ 고용24 바로가기</a>
+          </div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="step-item">
+          <div class="step-left">
+            <div class="step-num online">2</div>
+          </div>
+          <div class="step-card">
+            <span class="step-badge badge-online">💻 온라인</span>
+            <h3>수급자격 신청자 온라인 교육 이수</h3>
+            <p class="step-desc">고용24에서 <strong>실업급여 수급자격 신청자 온라인 교육</strong>을 수강해야 합니다. 고용센터 방문 전에 완료해두면 절차가 빠릅니다.</p>
+            <div class="step-detail">
+              <div class="detail-title">교육 방법</div>
+              <ul>
+                <li>고용24 → 실업급여 → 수급자격 신청자 온라인 교육 수강</li>
+                <li>고용센터 운영에 따라 일부는 방문 후 집체교육으로 진행 가능</li>
+                <li>약 1시간 내외 소요, 수강 완료 후 수료증 자동 처리</li>
+              </ul>
+            </div>
+            <a href="https://www.work24.go.kr" target="_blank" rel="noopener" class="step-link">→ 고용24 교육 바로가기</a>
+          </div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="step-item">
+          <div class="step-left">
+            <div class="step-num visit">3</div>
+          </div>
+          <div class="step-card">
+            <span class="step-badge badge-visit">🏢 방문 필수</span>
+            <h3>거주지 관할 고용센터 방문</h3>
+            <p class="step-desc">구직등록과 온라인 교육 완료 후, <strong>거주지 관할 고용센터</strong>를 직접 방문합니다. 신분증을 반드시 지참해야 합니다.</p>
+            <div class="step-detail">
+              <div class="detail-title">방문 시 지참 서류</div>
+              <ul>
+                <li>신분증 (주민등록증, 운전면허증, 여권 등)</li>
+                <li>고용24 구직신청 완료 확인 (출력 또는 앱 화면)</li>
+                <li>이직확인서 (사업주가 제출한 경우 자동 확인)</li>
+                <li>자발적 퇴사 예외사유 해당 시 관련 증빙서류</li>
+              </ul>
+            </div>
+            <div class="step-warn">⚠️ 수급자격인정 신청은 온라인으로 완결되지 않습니다. 반드시 <strong>거주지 관할 고용센터</strong>를 직접 방문해야 합니다.</div>
+            <a href="https://www.work24.go.kr/cm/c/d/1200/selectAgency.do" target="_blank" rel="noopener" class="step-link">→ 가까운 고용센터 찾기</a>
+          </div>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="step-item">
+          <div class="step-left">
+            <div class="step-num visit">4</div>
+          </div>
+          <div class="step-card">
+            <span class="step-badge badge-visit">🏢 센터 내</span>
+            <h3>수급자격인정신청서 및 재취업활동계획서 작성·제출</h3>
+            <p class="step-desc">고용센터에서 실업급여 신청자 취업지원 설명회에 참석하고, <strong>수급자격인정신청서</strong>와 <strong>재취업활동계획서</strong>를 작성해 제출합니다.</p>
+            <div class="step-detail">
+              <div class="detail-title">설명회 후 절차</div>
+              <ul>
+                <li>담당자와 개별상담 진행</li>
+                <li>다음 실업인정일 등 향후 일정 안내 수령</li>
+                <li>수급자격 인정여부: 접수 후 <strong>원칙적으로 14일 이내</strong> 결정 및 통지</li>
+                <li>불인정 시 90일 이내 심사·재심사 청구 가능</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 5 -->
+        <div class="step-item">
+          <div class="step-left">
+            <div class="step-num online">5</div>
+          </div>
+          <div class="step-card">
+            <span class="step-badge badge-auto">⏳ 자동</span>
+            <h3>대기기간 7일 (첫 주 급여 없음)</h3>
+            <p class="step-desc">수급자격 인정일로부터 <strong>7일간은 대기기간</strong>으로, 이 기간에는 구직급여가 지급되지 않습니다. 단, 건설일용근로자는 대기기간이 없습니다.</p>
+            <div class="step-detail">
+              <div class="detail-title">대기기간 중 할 일</div>
+              <ul>
+                <li>구직활동 시작 (입사지원, 면접 참여 등)</li>
+                <li>실업인정일 일정 확인 및 준비</li>
+                <li>재취업활동 증빙자료 준비</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 6 -->
+        <div class="step-item">
+          <div class="step-left">
+            <div class="step-num online">6</div>
+          </div>
+          <div class="step-card">
+            <span class="step-badge badge-repeat">🔄 매 4주</span>
+            <h3>실업인정 신청 + 구직활동 증빙</h3>
+            <p class="step-desc">대기기간 이후 <strong>매 1~4주마다 실업인정</strong>을 신청해야 급여가 지급됩니다. 구직활동 실적을 함께 제출해야 합니다.</p>
+            <div class="step-detail">
+              <div class="detail-title">실업인정 방법 (유형별 상이)</div>
+              <ul>
+                <li>일반 수급자: 온라인(고용24) 또는 고용센터 방문</li>
+                <li>반복수급자(2026~): <strong>전 회차 고용센터 대면 출석 의무화</strong></li>
+                <li>60~64세 수급자(2026.3.1~): 구직외활동 인정 횟수 제한 적용</li>
+                <li>실업인정일 당일 <strong>17:00까지 온라인 제출</strong> 시 인정 가능</li>
+              </ul>
+            </div>
+            <div class="step-warn">⚠️ 지정된 실업인정일에 출석하지 않으면 해당 기간 급여가 지급되지 않습니다. 불가피한 사정이 있으면 사전에 일정 변경 신청을 하세요.</div>
+          </div>
+        </div>
+
+        <!-- STEP 7 -->
+        <div class="step-item">
+          <div class="step-left">
+            <div class="step-num online">7</div>
+          </div>
+          <div class="step-card">
+            <span class="step-badge badge-online">💳 지급</span>
+            <h3>구직급여 수령</h3>
+            <p class="step-desc">실업인정이 완료되면 신청 시 등록한 본인 명의 계좌로 구직급여가 입금됩니다. 소정급여일수를 모두 사용하거나 재취업하면 지급이 종료됩니다.</p>
+            <div class="step-detail">
+              <div class="detail-title">조기재취업 시 추가 혜택</div>
+              <ul>
+                <li><strong>소정급여일수 1/2 이상 남기고 재취업</strong>하면 조기재취업수당이 지급됩니다.</li>
+                <li>재취업 후 <strong>12개월 이상 계속 근무</strong>하면 남은 일수의 50%를 일시에 받습니다.</li>
+                <li>직전 사업주에게 재고용되거나 실업신고 전에 채용을 약속한 곳은 제외됩니다.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 실업인정 방식 -->
+    <div class="section">
+      <div class="section-title">수급자 유형별 실업인정 방식 <span class="stag">고용노동부 공식 블로그 기준</span></div>
+      <div class="recog-cards">
+
+        <div class="recog-card">
+          <div class="recog-card-head">
+            <span class="recog-type">일반 수급자 <span class="rtype-sub">(180일 이하)</span></span>
+          </div>
+          <div class="recog-rows">
+            <div class="recog-row"><span class="rr-label">1차</span><span class="rr-val">집체교육 <span class="tag-visit">방문 원칙</span></span></div>
+            <div class="recog-row"><span class="rr-label">2~3차</span><span class="rr-val">4주 1회 <span class="tag-online">온라인 가능</span></span></div>
+            <div class="recog-row"><span class="rr-label">4~7차</span><span class="rr-val">4주 2회 (구직활동 1회) <span class="tag-visit">센터 출석</span></span></div>
+            <div class="recog-row"><span class="rr-label">8차~</span><span class="rr-val">해당 없음</span></div>
+          </div>
+        </div>
+
+        <div class="recog-card">
+          <div class="recog-card-head">
+            <span class="recog-type">일반 수급자 <span class="rtype-sub">(210일 이상)</span></span>
+          </div>
+          <div class="recog-rows">
+            <div class="recog-row"><span class="rr-label">1차</span><span class="rr-val">집체교육 <span class="tag-visit">방문 원칙</span></span></div>
+            <div class="recog-row"><span class="rr-label">2~3차</span><span class="rr-val">4주 1회 <span class="tag-online">온라인 가능</span></span></div>
+            <div class="recog-row"><span class="rr-label">4~7차</span><span class="rr-val">4주 2회 (구직활동 1회) <span class="tag-visit">센터 출석</span></span></div>
+            <div class="recog-row"><span class="rr-label">8차~</span><span class="rr-val">1주 1회 (구직활동) <span class="tag-visit">8차 센터 출석</span></span></div>
+          </div>
+        </div>
+
+        <div class="recog-card recog-card-warn">
+          <div class="recog-card-head">
+            <span class="recog-type">반복수급자 <span class="rtype-sub">(5년 내 3회 이상)</span></span>
+          </div>
+          <div class="recog-rows">
+            <div class="recog-row"><span class="rr-label">전 회차</span><span class="rr-val"><strong>고용센터 대면 출석 의무</strong> <span class="tag-visit">방문 필수</span></span></div>
+          </div>
+        </div>
+
+        <div class="recog-card">
+          <div class="recog-card-head">
+            <span class="recog-type">60세 이상·장애인</span>
+          </div>
+          <div class="recog-rows">
+            <div class="recog-row"><span class="rr-label">1차</span><span class="rr-val">집체교육 <span class="tag-online">온라인 가능</span></span></div>
+            <div class="recog-row"><span class="rr-label">2~3차</span><span class="rr-val">4주 1회 <span class="tag-online">온라인 가능</span></span></div>
+            <div class="recog-row"><span class="rr-label">4~7차</span><span class="rr-val">4주 1회 <span class="tag-online">온라인 가능</span></span></div>
+            <div class="recog-row"><span class="rr-label">8차~</span><span class="rr-val">4주 1회 <span class="tag-online">온라인 가능</span></span></div>
+          </div>
+        </div>
+
+      </div>
+      <p style="font-size:11px;color:var(--muted);margin-top:12px;line-height:1.7;word-break:keep-all;">* 2026년 3월 1일부터 60~64세 수급자는 구직외활동(단기취업특강 2회, 직업심리검사 1회, 심리안정프로그램 1회, 자원봉사 1회) 인정 횟수 제한이 적용됩니다.<br>* 고용센터 운영 방식에 따라 일부 차이가 있을 수 있습니다.</p>
+    </div>
+
+    <!-- 구직활동 인정 항목 -->
+    <div class="section">
+      <div class="section-title">인정되는 구직활동 종류 <span class="stag">고용보험 공식 사이트</span></div>
+      <div class="activity-grid">
+        <div class="activity-card">
+          <div class="aicon">📝</div>
+          <h4>입사지원·면접</h4>
+          <p>사업장 방문 또는 온라인·우편·팩스로 구인에 응모한 경우. 채용 행사에서 면접을 본 경우도 포함됩니다.</p>
+        </div>
+        <div class="activity-card">
+          <div class="aicon">🎓</div>
+          <h4>직업훈련 수강</h4>
+          <p>고용노동부 장관이 인정·지정한 훈련과정 또는 국가·지자체 지원 훈련과정(출결관리 있는 경우).</p>
+        </div>
+        <div class="activity-card">
+          <div class="aicon">💼</div>
+          <h4>취업특강·직업심리검사</h4>
+          <p>단기취업특강, 직업심리검사, 심리안정프로그램 등 직업안정기관의 직업지도 프로그램 참여.</p>
+        </div>
+        <div class="activity-card">
+          <div class="aicon">🤝</div>
+          <h4>자원봉사</h4>
+          <p>직업안정기관의 장이 소개한 사회봉사활동. 단, 인정 횟수 제한이 있으며 60~64세는 2026년부터 1회로 제한.</p>
+        </div>
+        <div class="activity-card">
+          <div class="aicon">🏪</div>
+          <h4>자영업 준비활동</h4>
+          <p>고용노동부 장관이 정하는 바에 따른 자영업 준비활동. 자영업활동계획서를 고용센터에 제출해야 합니다.</p>
+        </div>
+        <div class="activity-card">
+          <div class="aicon">🔍</div>
+          <h4>직업안정기관 직업소개</h4>
+          <p>고용센터의 직업소개 및 직업훈련 지시에 응한 경우. 담당자 소개로 구직활동을 한 경우도 포함.</p>
+        </div>
+      </div>
+      <div style="margin-top:14px;padding:12px 16px;background:var(--white);border-radius:8px;box-shadow:var(--shadow);font-size:12px;color:var(--muted);line-height:1.7;word-break:keep-all;">
+        <strong style="color:var(--navy);">❌ 인정되지 않는 사례:</strong> 사업장에 전화로만 구인문의 / 특정 직종·임금만 고집하며 동일 사업장 반복 구직 / 이력서를 실제 전송하지 않고 모집요강만 출력 / 친인척 사업장에서 확인만 받아오는 경우
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-box">
+      <h3>신청 전, 예상 수령액을 먼저 확인해보세요</h3>
+      <p>재직기간과 월급여를 입력하면 예상 수령액과 기간을 즉시 계산합니다</p>
+      <div class="cta-btns">
+        <a href="/" class="cta-btn primary">🧮 실업급여 계산기</a>
+        <a href="/eligibility/" class="cta-btn secondary">📋 수급 자격 조건 확인</a>
+      </div>
+    </div>
+
+    <!-- 출처 -->
+    <div class="source-box">
+      <h4>📚 출처 및 참고자료</h4>
+      <ul class="source-list">
+        <li>
+          <a href="https://blog.naver.com/molab_suda" target="_blank" rel="noopener">
+            <span class="s-label">1차 출처</span>
+            <span>고용노동부 공식 블로그 — 실업급여 수급요건·재취업활동·2026년 개정사항</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://eiac.ei.go.kr/ei/m/pf/MOW-PF-00-140-C.html" target="_blank" rel="noopener">
+            <span class="s-label">공식</span>
+            <span>고용보험 공식 사이트 — 실업급여 지급절차 및 구직활동 인정기준 안내</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.moel.go.kr/faq/faqView.do?seqRepeat=219" target="_blank" rel="noopener">
+            <span class="s-label">공식 FAQ</span>
+            <span>고용노동부 — 실업급여 신청방법 FAQ (구직등록·고용센터 방문·수급자격 신청 절차)</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.work24.go.kr" target="_blank" rel="noopener">
+            <span class="s-label">공식</span>
+            <span>고용24 (www.work24.go.kr) — 구직등록·온라인 교육·실업인정 신청 통합 포털</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://easylaw.go.kr/CSP/CnpClsMainBtr.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1" target="_blank" rel="noopener">
+            <span class="s-label">법령</span>
+            <span>찾기쉬운 생활법령정보 — 구직급여 수급 및 지급절차 (2026.2.28. 기준)</span>
+          </a>
+        </li>
+      </ul>
+      <p style="font-size:11px;color:var(--muted);margin-top:10px;line-height:1.7;">※ 본 페이지의 정보는 참고용이며, 실제 절차·서류는 거주지 관할 고용센터(☎ 1350)에서 확인하시기 바랍니다.</p>
+    </div>
+
+  </main>
+
+  <!-- 사이드바 -->
+  <aside class="sidebar">
+
+    <div class="side-card">
+      <div class="side-card-head">
+        <h3>⚡ 신청 절차 한눈에</h3>
+      </div>
+      <div class="side-card-body">
+        <ul class="mini-step-list">
+          <li><div class="mini-num on">1</div><span><strong>고용24 구직등록</strong> — 온라인</span></li>
+          <li><div class="mini-num on">2</div><span><strong>온라인 교육 이수</strong> — 고용24</span></li>
+          <li><div class="mini-num">3</div><span><strong>고용센터 방문</strong> — 신분증 지참</span></li>
+          <li><div class="mini-num">4</div><span><strong>수급자격 신청서</strong> 작성·제출</span></li>
+          <li><div class="mini-num">5</div><span><strong>대기기간 7일</strong> — 급여 없음</span></li>
+          <li><div class="mini-num on">6</div><span><strong>실업인정</strong> 4주마다 + 구직활동</span></li>
+          <li><div class="mini-num on">7</div><span><strong>구직급여 수령</strong></span></li>
+        </ul>
+        <p style="font-size:11px;color:var(--muted);margin-top:10px;line-height:1.6;">🟢 온라인 가능  ⬤ 방문 필수</p>
+      </div>
+    </div>
+
+    <div class="side-card">
+      <div class="side-card-head">
+        <h3>🔗 관련 페이지</h3>
+      </div>
+      <div class="side-card-body">
+        <ul class="quick-links">
+          <li><a href="/"><span class="arrow">→</span> 실업급여 계산기</a></li>
+          <li><a href="/eligibility/"><span class="arrow">→</span> 수급 자격 조건</a></li>
+          <li><a href="/voluntary-quit/"><span class="arrow">→</span> 자발적 퇴사 예외사유</a></li>
+          <li><a href="/period/"><span class="arrow">→</span> 수급 기간 기준표</a></li>
+          <li><a href="/apply/" class="current"><span class="arrow">→</span> 신청 방법 가이드 <span style="font-size:10px;color:var(--teal);">현재</span></a></li>
+          <li><a href="/faq/"><span class="arrow">→</span> 자주 묻는 질문</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ad-side">[ AdSense 300×250 ]</div>
+
+    <div class="side-card">
+      <div class="side-card-head">
+        <h3>📞 문의 및 신청처</h3>
+      </div>
+      <div class="side-card-body" style="font-size:12px;color:var(--muted);line-height:1.9;">
+        <p><strong style="color:var(--navy)">고용노동부 상담센터</strong><br>☎ 1350 (국번 없이)<br>평일 09:00~18:00</p>
+        <hr style="border:none;border-top:1px solid var(--border);margin:10px 0;">
+        <p><strong style="color:var(--navy)">고용24 (구직등록·실업인정)</strong><br><a href="https://www.work24.go.kr" target="_blank" rel="noopener" style="color:var(--teal);">www.work24.go.kr</a></p>
+        <hr style="border:none;border-top:1px solid var(--border);margin:10px 0;">
+        <p><strong style="color:var(--navy)">고용보험 사이트</strong><br><a href="https://www.ei.go.kr" target="_blank" rel="noopener" style="color:var(--teal);">www.ei.go.kr</a></p>
+        <hr style="border:none;border-top:1px solid var(--border);margin:10px 0;">
+        <p><strong style="color:var(--navy)">온라인 상담</strong><br><a href="https://1350.moel.go.kr" target="_blank" rel="noopener" style="color:var(--teal);">1350.moel.go.kr</a></p>
+      </div>
+    </div>
+
+  </aside>
+
+</div>
+
+<footer class="site-footer">
+  <p><strong>실업급여.info</strong> — 고용보험법 기준 정보 제공</p>
+  <p style="margin-top:6px;">본 페이지의 정보는 참고용이며, 실제 절차 및 서류는 거주지 관할 고용센터(☎ 1350)에서 확인하세요.<br>정확한 내용은 고용노동부 고객상담센터 <strong>1350</strong> 또는 <strong>고용24(www.work24.go.kr)</strong>에서 확인하세요.</p>
+  <p style="margin-top:10px;font-size:11px;">© 2026 실업급여.info · 광고문의: <a href="/cdn-cgi/l/email-protection" class="

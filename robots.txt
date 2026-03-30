@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://실업급여.info/sitemap.xml
