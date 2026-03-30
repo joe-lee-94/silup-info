@@ -615,7 +615,7 @@ nav a:hover { color: var(--navy); }
     <a href="/" class="logo">실업급여<span>.info</span></a>
     <nav>
       <a href="/eligibility/">수급 조건</a>
-      <a href="/period/">수급 기간</a>
+      <a href="/period/" style="opacity:0.4;pointer-events:none;">수급 기간</a>
       <a href="/apply/">신청 방법</a>
       <a href="/faq/">자주 묻는 질문</a>
     </nav>
@@ -887,10 +887,10 @@ nav a:hover { color: var(--navy); }
 <footer class="site-footer">
   <p><strong>실업급여.info</strong> — 고용보험법 기준 정보 제공</p>
   <p style="margin-top:6px;">본 계산기는 참고용이며, 실제 수령액은 고용센터 심사 결과에 따라 달라질 수 있습니다.<br>정확한 내용은 고용노동부 고객상담센터 <strong>1350</strong> 또는 <strong>워크넷(www.work.go.kr)</strong>에서 확인하세요.</p>
-  <p style="margin-top:10px; font-size:11px;">© 2026 실업급여.info · 광고문의: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ee8f8aae9d87829b9ec087808881">[email&#160;protected]</a></p>
+  <p style="margin-top:10px; font-size:11px;">© 2026 실업급여.info · 광고문의: ad@silup.info</p>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 // ── 급여 입력 실시간 포맷 ─────────────────────────────────
 function formatSalary(input) {
   const raw = input.value.replace(/[^0-9]/g, '');
@@ -1019,3 +1019,17 @@ function calculate() {
   panel.classList.add('visible');
   panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
+
+// ── FAQ 토글 ──
+function toggleFaq(el) {
+  el.classList.toggle('open');
+}
+
+// 엔터키로 계산
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter') calculate();
+});
+</script>
+
+</body>
+</html>

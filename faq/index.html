@@ -198,7 +198,7 @@ nav a.active { color: var(--navy); font-weight: 700; }
     <a href="/" class="logo">실업급여<span>.info</span></a>
     <nav>
       <a href="/eligibility/">수급 조건</a>
-      <a href="/period/">수급 기간</a>
+      <a href="/period/" style="opacity:0.4;pointer-events:none;">수급 기간</a>
       <a href="/apply/">신청 방법</a>
       <a href="/faq/" class="active">자주 묻는 질문</a>
     </nav>
@@ -680,10 +680,10 @@ nav a.active { color: var(--navy); font-weight: 700; }
 <footer class="site-footer">
   <p><strong>실업급여.info</strong> — 고용보험법 기준 정보 제공</p>
   <p style="margin-top:6px;">본 페이지의 정보는 참고용이며, 개인 상황에 따라 다를 수 있습니다.<br>정확한 내용은 고용노동부 고객상담센터 <strong>1350</strong> 또는 <strong>고용24(www.work24.go.kr)</strong>에서 확인하세요.</p>
-  <p style="margin-top:10px;font-size:11px;">© 2026 실업급여.info · 광고문의: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7d1c193d0e1411080d5314131b12">[email&#160;protected]</a></p>
+  <p style="margin-top:10px;font-size:11px;">© 2026 실업급여.info · 광고문의: ad@silup.info</p>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 function toggleFaq(item) {
   item.classList.toggle('open');
 }
@@ -694,4 +694,15 @@ function filterCat(cat, tab) {
   tab.classList.add('active');
 
   // 섹션 필터
-  docum
+  document.querySelectorAll('.faq-section').forEach(sec => {
+    if (cat === 'all' || sec.dataset.cat === cat) {
+      sec.style.display = '';
+    } else {
+      sec.style.display = 'none';
+    }
+  });
+}
+</script>
+
+</body>
+</html>
