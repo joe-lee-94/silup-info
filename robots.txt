@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://실업급여.info/sitemap.xml
+Sitemap: https://silup-info.netlify.app/sitemap.xml
