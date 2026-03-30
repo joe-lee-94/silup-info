@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://silup-info.netlify.app/sitemap.xml
+Sitemap: https://joe-lee-94.github.io/silup-info/sitemap.xml

@@ -24,6 +24,7 @@
 
 <meta name="google-adsense-account" content="ca-pub-2789160178318346">
 <meta name="google-site-verification" content="x8XCF_jdyK6mcO6mH2ioAHT-qFmkvScNmDX8CI_yL5k" />
+
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
@@ -614,12 +615,12 @@ nav a:hover { color: var(--navy); }
 <!-- 헤더 -->
 <header class="site-header">
   <div class="header-inner">
-    <a href="/" class="logo">실업급여<span>.info</span></a>
+    <a href="/silup-info/" class="logo">실업급여<span>.info</span></a>
     <nav>
-      <a href="/eligibility/">수급 조건</a>
-      <a href="/period/" style="opacity:0.4;pointer-events:none;">수급 기간</a>
-      <a href="/apply/">신청 방법</a>
-      <a href="/faq/">자주 묻는 질문</a>
+      <a href="/silup-info/eligibility/">수급 조건</a>
+      <a href="/silup-info/period/" style="opacity:0.4;pointer-events:none;">수급 기간</a>
+      <a href="/silup-info/apply/">신청 방법</a>
+      <a href="/silup-info/faq/">자주 묻는 질문</a>
     </nav>
   </div>
 </header>
@@ -853,11 +854,11 @@ nav a:hover { color: var(--navy); }
       </div>
       <div class="side-card-body">
         <ul class="quick-links">
-          <li><a href="/eligibility/"><span class="arrow">→</span> 수급 자격 조건 확인</a></li>
-          <li><a href="/voluntary-quit/"><span class="arrow">→</span> 자발적 퇴사 예외 케이스</a></li>
-          <li><a href="/apply/"><span class="arrow">→</span> 신청 방법 단계별 가이드</a></li>
-          <li><a href="/early-reemployment/"><span class="arrow">→</span> 조기재취업수당 계산기</a></li>
-          <li><a href="/faq/"><span class="arrow">→</span> 자주 묻는 질문 30개</a></li>
+          <li><a href="/silup-info/eligibility/"><span class="arrow">→</span> 수급 자격 조건 확인</a></li>
+          <li><a href="/silup-info/voluntary-quit/"><span class="arrow">→</span> 자발적 퇴사 예외 케이스</a></li>
+          <li><a href="/silup-info/apply/"><span class="arrow">→</span> 신청 방법 단계별 가이드</a></li>
+          <li><a href="/silup-info/early-reemployment/"><span class="arrow">→</span> 조기재취업수당 계산기</a></li>
+          <li><a href="/silup-info/faq/"><span class="arrow">→</span> 자주 묻는 질문 30개</a></li>
         </ul>
       </div>
     </div>
@@ -941,7 +942,7 @@ function calculate() {
         <div class="icon">🚫</div>
         <p><strong>단순 자발적 퇴사는 원칙적으로 수급 불가입니다.</strong><br><br>
         단, 임금체불·직장 내 괴롭힘·건강 악화·사업장 이전·가족돌봄 휴직 거부 등 예외 조건에 해당하면 수급이 가능합니다.<br>
-        <a href="/voluntary-quit/" style="color:var(--teal);font-weight:700;">→ 자발적 퇴사 예외 조건 확인하기</a></p>
+        <a href="/silup-info/voluntary-quit/" style="color:var(--teal);font-weight:700;">→ 자발적 퇴사 예외 조건 확인하기</a></p>
       </div>`;
     panel.classList.add('visible');
     return;
@@ -978,7 +979,7 @@ function calculate() {
   const actualAmount = dailyBenefit * actualDays;
 
   const cautionMsg = reason === 'unknown'
-    ? '퇴직 사유를 "잘 모르겠음"으로 선택하셨습니다. 자발적 퇴사라면 수급이 제한될 수 있습니다. <a href="/eligibility/" style="color:#7c4b00;font-weight:700;">→ 조건 확인하기</a>'
+    ? '퇴직 사유를 "잘 모르겠음"으로 선택하셨습니다. 자발적 퇴사라면 수급이 제한될 수 있습니다. <a href="/silup-info/eligibility/" style="color:#7c4b00;font-weight:700;">→ 조건 확인하기</a>'
     : reason === 'special'
     ? '자발적 퇴사 예외 사유는 고용센터에서 별도 심사를 진행합니다. 관련 서류를 충분히 준비하세요.'
     : null;
