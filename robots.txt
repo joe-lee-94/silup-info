@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://joe-lee-94.github.io/silup-info/sitemap.xml
+Sitemap: https://silup-info.pages.dev/sitemap.xml
